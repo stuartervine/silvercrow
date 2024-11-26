@@ -15,13 +15,20 @@
         header {
             background-color: #000000;
             color: #ffffff;
-            padding: 20px 0;
-            text-align: center;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 300px;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 4rem; /* Increased font size of title */
+        }
+
+        header img {
+            width: 250px; /* Increased image size */
         }
 
         nav {
@@ -120,7 +127,7 @@
         }
 
         .section-title {
-            font-size: 1.5rem;  /* Smaller font size for section titles */
+            font-size: 1.5rem;
             color: #333333;
             text-align: center;
             margin-top: 40px;
@@ -142,9 +149,9 @@
 </head>
 <body>
 <header>
-    <img src="imgs/crow.jpg" width="100" alt="SilverCrow Logo">
+    <img src="imgs/OppCrow.jpg" alt="SilverCrow Logo">
     <h1>Silver Crow</h1>
-    <p>Accessories for Every Lifestyle</p>
+    <img src="imgs/OppCrow.jpg" alt="SilverCrow Logo">
 </header>
 
 <nav>
@@ -170,22 +177,24 @@
         <p>$7.00</p>
         <p class="description">A fully customizable bracelet of your own choice!</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdt4LGWZ-GpKeELEp3tcKZY9gn5RI0-1-lt2azzTU4oXLrNvg/viewform?embedded=true" target="_blank">
-            <button type="button">Place Your Order</button>
+            <button type="button">Customize your Bracelet!</button>
         </a>
     </div>
 
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Black Charm Bracelet">
-        <h3>Black Charm Bracelet</h3>
-        <p>$30.00</p>
-        <p class="description">Stylish black bracelet with elegant charms to add a touch of sophistication.</p>
-        <button>View Details</button>
+        <img src="imgs/CCC.jpg" alt="Candy Cane Bracelet">
+        <h3>Candy Cane Bracelet</h3>
+        <p>$5.00</p>
+        <p class="description">A christmas bracelet based on the popular christmas tree, the candy cane!</p>
+        <a href="https://buy.stripe.com/fZedTk7482S4fKw8wx" target="_blank">
+            <button type="button">Place Order Here</button>
+        </a>
     </div>
 
     <div class="product">
         <img src="https://via.placeholder.com/200" alt="Silver Charm Bracelet">
         <h3>Silver Charm Bracelet</h3>
-        <p>$28.00</p>
+        <p>$5.00</p>
         <p class="description">Graceful silver bracelet with a touch of elegance and durability.</p>
         <button>View Details</button>
     </div>
